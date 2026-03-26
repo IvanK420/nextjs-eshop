@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Product } from "../../../generated/prisma/client";
+import { Product } from "../../generated/prisma/client";
 
 function Admin() {
   const [nom, setNom] = useState("");

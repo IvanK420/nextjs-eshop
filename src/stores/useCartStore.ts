@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { Product } from "../../generated/prisma/browser";
+import { Product } from "../generated/prisma/browser";
 
 interface CartItem {
   id: number;

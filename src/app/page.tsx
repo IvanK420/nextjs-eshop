@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Product } from "../../generated/prisma/client";
+import { Product } from "../generated/prisma/client";
 import ProductCard from "./components/ProductCard";
 
 export default function Home() {

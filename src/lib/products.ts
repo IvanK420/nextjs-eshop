@@ -1,6 +1,6 @@
 
 import CartItem from "@/types/cartItem";
-import { Product } from "../../generated/prisma/browser";
+import { Product } from "../generated/prisma/browser";
 
 /**
  * Fetch les produits selon les IDs fournis

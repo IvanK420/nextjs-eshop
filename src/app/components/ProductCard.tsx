@@ -1,6 +1,6 @@
 "use client";
 import { useCartStore } from "@/stores/useCartStore";
-import { Product } from "../../../generated/prisma/client";
+import { Product } from "../../generated/prisma/client";
 
 export default function ProductCard({ product }: { product: Product }) {
   const addItem = useCartStore((state) => state.addItem);
