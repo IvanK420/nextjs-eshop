@@ -19,6 +19,7 @@ export async function POST(req: Request) {
       },
       quantity: item.quantity,
     }));
+    
 
     // 2. Création de la session Checkout
     const session = await stripe.checkout.sessions.create({
