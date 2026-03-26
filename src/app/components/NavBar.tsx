@@ -1,6 +1,5 @@
 import Link from "next/link";
-import BasketHeader from "./basketHeader";
-
+import CartLink from "./CartLink";
 function NavBar() {
   return (
     <div className="navbar bg-base-300 shadow-sm   ">
@@ -16,8 +15,7 @@ function NavBar() {
             <Link href={"/admin"}>Admin</Link>
           </li>
           <li>
-            {" "}
-            <BasketHeader></BasketHeader>
+          <CartLink></CartLink>
           </li>
         </ul>
       </div>

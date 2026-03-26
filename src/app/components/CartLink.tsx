@@ -3,7 +3,7 @@ import { useCartStore } from "@/stores/useCartStore";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-export default function BasketHeader() {
+export default function CartLink() {
   const [isMounted, setIsMounted] = useState(false);
   const total = useCartStore((state) => state.getTotalItems());
   const router = useRouter();
