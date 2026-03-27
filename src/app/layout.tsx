@@ -29,7 +29,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       data-theme="dim"
     >
-      <body className="overflow-hidden">
+      <body className="min-h-full">
         <NavBar></NavBar>
         <ThemeSelector></ThemeSelector>
         {children}

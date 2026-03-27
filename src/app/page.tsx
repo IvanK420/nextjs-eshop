@@ -22,8 +22,8 @@ export default function Home() {
 
   if (products.length === 0) {
     return( <div>
-      <header className="flex flex-row justify-center mb-6">
-        <h1 className="text-7xl">Nout catalogue</h1>
+      <header className="flex flex-row  justify-center mb-6">
+        <h1 className="text-4xl text-wrap md:text-9xl">Nout catalogue</h1>
       </header>
       <div className="divider"></div>
       <main className="flex flex-col items-center justify-center mx-50">
