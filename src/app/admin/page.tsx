@@ -130,7 +130,7 @@ function Admin() {
         )}
       </form>
       <div>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto w-dvw px-2 ">
           <table className="table table-zebra">
             {/* head */}
             <thead>
